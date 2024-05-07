@@ -1,4 +1,4 @@
-FROM ubuntu:focal as app
+FROM ubuntu:noble as app
 
 ENV DEBIAN_FRONTEND noninteractive
 # System requirements.
